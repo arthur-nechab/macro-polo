@@ -2,6 +2,7 @@
 // Vous gagnez les mêmes effets qu’un repos court
 // Vous gagnez une fraction de vos dés de vie et de vos points de sorcellerie (inférieur)
 // Vous gagnez une fraction de vos emplacements de sorts (inférieur, niveau 5 max)
+
 (async()=>{
   let actorD = game.actors.get(args[0].actor._id);
   let actorN = actorD.data.name;
